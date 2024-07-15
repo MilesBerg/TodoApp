@@ -1,0 +1,36 @@
+.todo-form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.todo-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+
+.todo-form button {
+    padding: 10px 20px;
+    background-color: #0091ff;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.todo-form button:hover {
+    background-color: #ffffff;
+    color: black;
+    transition: .5s;
+}
+
